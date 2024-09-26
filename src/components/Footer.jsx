@@ -1,5 +1,3 @@
-import React from 'react';
-
 const Footer = () => {
   return (
     <footer>
@@ -13,7 +11,7 @@ const Footer = () => {
           </ul>
         </div>
       </nav>
-      <p>Copyright &#169; 2023 John Doe. All Rights Reserved.</p>
+      <p>Copyright &#169; 2024 Yousef Gainey. All Rights Reserved.</p>
     </footer>
   );
 };

@@ -1,5 +1,3 @@
-
-
 const Header = ({ menuOpen, toggleMenu }) => {
   return (
     <header>

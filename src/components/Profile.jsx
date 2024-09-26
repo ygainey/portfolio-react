@@ -1,10 +1,8 @@
-import React from 'react';
-
 const Profile = () => {
   return (
     <section id="profile">
       <div className="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="John Doe profile picture" />
+        <img className="section__pic-image" src="https://res.cloudinary.com/dr9aiqtjj/image/upload/v1727356595/port-image-1v.2_cpss4a.jpg" alt="Yousef Gainey's profile picture" />
       </div>
       <div className="section__text">
         <p className="section__text__p1">Hello, I'm</p>
@@ -19,18 +17,10 @@ const Profile = () => {
           </a>
         </div>
         <div id="socials-container">
-          <img 
-            src="./assets/linkedin.png" 
-            alt="My LinkedIn profile" 
-            className="icon" 
-            onClick={() => window.open('https://linkedin.com/', '_blank')}
-          />
-          <img 
-            src="./assets/github.png" 
-            alt="My Github profile" 
-            className="icon" 
-            onClick={() => window.open('https://github.com/', '_blank')}
-          />
+          <i className="devicon-linkedin-plain colored"></i>
+          <p><a href="https://www.linkedin.com/in/yousef-g-69019952/" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+          <i className="devicon-github-original colored"></i>
+          <p><a href="https://github.com/ygainey" target="_blank" rel="noopener noreferrer">Github</a></p>
         </div>
       </div>
     </section>
