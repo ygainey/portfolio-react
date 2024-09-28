@@ -177,8 +177,8 @@ section {
   margin: auto 0;
 }
 .section__pic-image{
-  height: 400px;
-  width: 400px;
+  /* height: 400px;
+  width: 400px; */
   border-radius: 50%;
 }
 
@@ -290,7 +290,7 @@ section {
 }
 
 .about-pic {
-  border-radius: 2rem;
+  border-radius: 50%;
 }
 
 .arrow {
@@ -350,6 +350,7 @@ section {
 
 article {
   display: flex;
+  flex-direction: column;
   width: 10rem;
   justify-content: space-around;
   gap: 0.5rem;

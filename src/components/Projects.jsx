@@ -13,10 +13,10 @@ const Projects = () => {
             </div>
             <h2 className="experience-sub-title project-title">Project One</h2>
             <div className="btn-container">
-              <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://github.com')}>
+              <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://github.com/ygainey/minesweeper-react', '_blank')}>
                 Github
               </button>
-              <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://example.com')}>
+              <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://yg-minesweeper-react.netlify.app/', '_blank')}>
                 Live Demo
               </button>
             </div>
@@ -27,10 +27,10 @@ const Projects = () => {
             </div>
             <h2 className="experience-sub-title project-title">Project Two</h2>
             <div className="btn-container">
-              <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://github.com')}>
+              <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://github.com', '_blank')}>
                 Github
               </button>
-              <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://example.com')}>
+              <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://example.com', '_blank')}>
                 Live Demo
               </button>
             </div>
@@ -41,10 +41,10 @@ const Projects = () => {
             </div>
             <h2 className="experience-sub-title project-title">Project Three</h2>
             <div className="btn-container">
-              <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://github.com')}>
+              <button className="btn btn-color-2 project-btn" onClick={() => { window.open('https://github.com/ygainey/aipplicant-react-fe', '_blank'); window.open('https://github.com/ygainey/aipplicant-django-be', '_blank'); }}>
                 Github
               </button>
-              <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://example.com')}>
+              <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://aipplicant.netlify.app/', '_blank')}>
                 Live Demo
               </button>
             </div>

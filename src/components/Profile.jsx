@@ -2,7 +2,7 @@ const Profile = () => {
   return (
     <section id="profile">
       <div className="section__pic-container">
-        <img className="section__pic-image" src="https://res.cloudinary.com/dr9aiqtjj/image/upload/v1727356595/port-image-1v.2_cpss4a.jpg" alt="Yousef Gainey's profile picture" />
+        <img src="https://res.cloudinary.com/dr9aiqtjj/image/upload/v1727356595/port-image-1v.2_cpss4a.jpg" alt="Yousef Gainey's profile picture" className="section__pic-image" />
       </div>
       <div className="section__text">
         <p className="section__text__p1">Hello, I'm</p>

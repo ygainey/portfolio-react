@@ -7,7 +7,7 @@ const About = () => {
       <h1 className="title">About Me</h1>
       <div className="section-container">
         <div className="section__pic-container">
-          <img src="./assets/about-pic.png" alt="Profile picture" className="about-pic"/>
+          <img src="https://res.cloudinary.com/dr9aiqtjj/image/upload/v1727357787/port-image-2_f3t6vt.jpg" alt="Profile picture" className="about-pic"/>
         </div>
         <div className="about-details-container">
           <div className="about-containers">
@@ -19,7 +19,7 @@ const About = () => {
             <div className="details-container">
               <img src="./assets/education.png" alt="Education icon" className="icon" />
               <h3>Education</h3>
-              <p>B.Sc. Bachelors Degree<br />M.Sc. Masters Degree</p>
+              <p>B.Sc. Bachelors Degree<br />Computer Science <br />King's College London <br />2014</p>
             </div>
           </div>
           <div className="text-container">
