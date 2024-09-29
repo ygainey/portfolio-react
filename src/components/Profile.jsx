@@ -9,7 +9,7 @@ const Profile = () => {
         <h1 className="title">Yousef Gainey</h1>
         <p className="section__text__p2">Junior Web Engineer</p>
         <div className="btn-container">
-          <button className="btn btn-color-2" onClick={() => window.open('./assets/resume.pdf')}>
+          <button className="btn btn-color-2" onClick={() => window.open('../assets/YG - Resume Q3 2024 v.final.pdf', '_blank')}>
             Download CV
           </button>
           <a href="#contact" className="btn btn-color-1">

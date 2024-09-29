@@ -1,4 +1,5 @@
-import React from 'react';
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaNodeJs, FaNpm, FaPython, FaGithub } from 'react-icons/fa'
+import { SiPostman, SiExpress, SiDjango, SiPostgresql, SiMongodb, SiMongoose } from 'react-icons/si'
 
 const Experience = () => {
   return (
@@ -8,85 +9,73 @@ const Experience = () => {
       <div className="experience-details-container">
         <div className="about-containers">
           <div className="details-container">
-            <h2 className="experience-sub-title">Frontend Development</h2>
+            <h2 className="experience-sub-title">Technical Skills & Tooling</h2>
             <div className="article-container">
               <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" className="icon" />
-                <div>
-                  <h3>HTML</h3>
-                  <p>Experienced</p>
-                </div>
+                <FaHtml5 size={50} />
+                <h3>HTML5</h3>
               </article>
               <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" className="icon" />
-                <div>
-                  <h3>CSS</h3>
-                  <p>Experienced</p>
-                </div>
+                <FaCss3Alt size={50} />
+                <h3>CSS3</h3>
               </article>
               <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" className="icon" />
-                <div>
-                  <h3>SASS</h3>
-                  <p>Intermediate</p>
-                </div>
+                <FaJs size={50} />
+                <h3>JavaScript</h3>
               </article>
               <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" className="icon" />
-                <div>
-                  <h3>JavaScript</h3>
-                  <p>Basic</p>
-                </div>
+                <FaReact size={50} />
+                <h3>React.js</h3>
               </article>
               <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" className="icon" />
-                <div>
-                  <h3>TypeScript</h3>
-                  <p>Basic</p>
-                </div>
+                <FaNodeJs size={50} />
+                <h3>Node.js</h3>
               </article>
               <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" className="icon" />
-                <div>
-                  <h3>Material UI</h3>
-                  <p>Intermediate</p>
-                </div>
+                <SiExpress size={50} />
+                <h3>Express.js</h3>
+              </article>
+              <article>
+                <FaPython size={50} />
+                <h3>Python</h3>
+              </article>
+              <article>
+                <SiDjango size={50} />
+                <h3>Django</h3>
+              </article>
+              <article>
+                <SiPostgresql size={50} />
+                <h3>PostgreSQL</h3>
+              </article>
+              <article>
+                <SiMongodb size={50} />
+                <h3>MongoDB</h3>
+              </article>
+              <article>
+                <SiMongoose size={50} />
+                <h3>Mongoose</h3>
+              </article>
+              <article>
+                <FaNpm size={50} />
+                <h3>NPM</h3>
+              </article>
+              <article>
+                <FaGithub size={50} />
+                <h3>Github</h3>
+              </article>
+              <article>
+                <SiPostman size={50} />
+                <h3>Postman</h3>
               </article>
             </div>
           </div>
-          <div className="details-container">
-            <h2 className="experience-sub-title">Backend Development</h2>
+          {/* <div className="details-container">
+            <h2 className="experience-sub-title">Backend Development & Tooling</h2>
             <div className="article-container">
               <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" className="icon" />
-                <div>
-                  <h3>PostgreSQL</h3>
-                  <p>Basic</p>
-                </div>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" className="icon" />
-                <div>
-                  <h3>Node JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" className="icon" />
-                <div>
-                  <h3>Express JS</h3>
-                  <p>Intermediate</p>
-                </div>
-              </article>
-              <article>
-                <img src="./assets/checkmark.png" alt="Experience icon" className="icon" />
-                <div>
-                  <h3>Git</h3>
-                  <p>Intermediate</p>
-                </div>
               </article>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

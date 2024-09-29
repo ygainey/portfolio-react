@@ -13,8 +13,8 @@ const About = () => {
           <div className="about-containers">
             <div className="details-container">
               <img src="./assets/experience.png" alt="Experience icon" className="icon" />
-              <h3>Experience</h3>
-              <p>2+ years<br />Frontend Development</p>
+              <h3>Professional Development</h3>
+              <p>General Assembly<br />Software Engineering Bootcamp<br />Jun - Aug 2024: 12 weeks</p>
             </div>
             <div className="details-container">
               <img src="./assets/education.png" alt="Education icon" className="icon" />
