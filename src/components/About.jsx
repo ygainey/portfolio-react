@@ -12,12 +12,10 @@ const About = () => {
         <div className="about-details-container">
           <div className="about-containers">
             <div className="details-container">
-              <img src="./assets/experience.png" alt="Experience icon" className="icon" />
               <h3>Professional Development</h3>
               <p>General Assembly<br />Software Engineering Bootcamp<br />Jun - Aug 2024: 12 weeks</p>
             </div>
             <div className="details-container">
-              <img src="./assets/education.png" alt="Education icon" className="icon" />
               <h3>Education</h3>
               <p>B.Sc. Bachelors Degree<br />Computer Science <br />King's College London <br />2014</p>
             </div>
