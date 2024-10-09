@@ -41,7 +41,7 @@ const Projects = () => {
             <div className="article-container">
               <img src="https://res.cloudinary.com/dr9aiqtjj/image/upload/v1728298518/AIpplicant-portv1_u6rutr.png" alt="Project 3" className="project-img" />
             </div>
-            <h2 className="experience-sub-title project-title">AIpllicant</h2>
+            <h2 className="experience-sub-title project-title">AIpplicant</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi dolorem minus at atque tenetur. Est nihil sunt debitis exercitationem corporis. Architecto obcaecati placeat culpa adipisci consequatur dolore veritatis quia atque!</p>
             <div className="btn-container">
               <button className="btn btn-color-2 project-btn" onClick={() => { window.open('https://github.com/ygainey/aipplicant-react-fe', '_blank'); window.open('https://github.com/ygainey/aipplicant-django-be', '_blank'); }}>
