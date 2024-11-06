@@ -27,9 +27,6 @@ const About = () => {
               After completing the General Assembly Software Engineering Bootcamp, I quickly immersed myself in the world of JavaScript, React, Node.js and Django, building projects that push my skills 
               and creativity. My recruitment background gives me a unique perspective on user needs and business objectives, allowing me to approach development with both technical and human-centered insights.
               <br /><br />
-              Currently, I’m focused on mastering the MERN stack and developing applications that combine functionality with user experience. I’m particularly proud of my recent work on AIpplicant, where I 
-              tackled the integration of chatGPT to provide responses based on user input.
-              <br /><br />
               As I continue on this path, I’m excited to take on projects that make a tangible difference, whether it’s through problem-solving or innovation. Thanks for stopping by, and feel free to reach out if 
               you’d like to connect!
             </p>

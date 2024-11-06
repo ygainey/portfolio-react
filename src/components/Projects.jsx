@@ -12,7 +12,10 @@ const Projects = () => {
               <img src="https://res.cloudinary.com/dr9aiqtjj/image/upload/v1728298518/minesweeperv1_nsgr3q.png" alt="Project 1" className="project-img" />
             </div>
             <h2 className="experience-sub-title project-title">Minesweeper</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem iure deserunt rerum nesciunt fuga suscipit, recusandae at porro aspernatur quaerat quod est alias tenetur fugiat unde voluptate debitis, ducimus vel?</p>
+            <p>
+              This is a refactored version of my week 2 GA bootcamp project. We were tasked to build a game in core Javascript, I opted for the windows classic "Minesweeper".
+              Post course it was refactored using React.
+            </p>
             <div className="btn-container">
               <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://github.com/ygainey/minesweeper-react', '_blank')}>
                 Github
@@ -42,7 +45,10 @@ const Projects = () => {
               <img src="https://res.cloudinary.com/dr9aiqtjj/image/upload/v1728298518/AIpplicant-portv1_u6rutr.png" alt="Project 3" className="project-img" />
             </div>
             <h2 className="experience-sub-title project-title">AIpplicant</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi dolorem minus at atque tenetur. Est nihil sunt debitis exercitationem corporis. Architecto obcaecati placeat culpa adipisci consequatur dolore veritatis quia atque!</p>
+            <p>
+              AIpplicant is an designed to help users track job applications and then generate a cover letter using ChatGPT and user datapoints. 
+              It was build using React on the Front-End, Django and PostgreSQL on the Back-End.
+            </p>
             <div className="btn-container">
               <button className="btn btn-color-2 project-btn" onClick={() => { window.open('https://github.com/ygainey/aipplicant-react-fe', '_blank'); window.open('https://github.com/ygainey/aipplicant-django-be', '_blank'); }}>
                 Github
