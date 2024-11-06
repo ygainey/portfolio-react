@@ -24,7 +24,7 @@ const About = () => {
               I took some time away from my studies. During this time, I moved into a career in recruitment, where I found success but always felt the pull to return to my roots in tech. Knowing my 
               true passion lay in coding, I eventually decided to take the leap and pursue software engineering full-time.
               <br /><br />
-              After completing the General Assembly Software Engineering Bootcamp, I quickly immersed myself in the world of JavaScript, React, Node.js and Django, building projects that push my skills 
+              During and after completing the General Assembly Software Engineering Bootcamp, I immersed myself in the world of JavaScript, Python, React, Node.js and Django, building projects that push my skills 
               and creativity. My recruitment background gives me a unique perspective on user needs and business objectives, allowing me to approach development with both technical and human-centered insights.
               <br /><br />
               As I continue on this path, I’m excited to take on projects that make a tangible difference, whether it’s through problem-solving or innovation. Thanks for stopping by, and feel free to reach out if 
