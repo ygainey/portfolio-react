@@ -1,5 +1,3 @@
-import React from 'react';
-
 const About = () => {
   return (
     <section id="about">
@@ -7,13 +5,13 @@ const About = () => {
       <h1 className="title">About Me</h1>
       <div className="section-container">
         <div className="section__pic-container">
-          <img src="https://res.cloudinary.com/dr9aiqtjj/image/upload/v1727357787/port-image-2_f3t6vt.jpg" alt="Profile picture" className="about-pic"/>
+          <img src="https://res.cloudinary.com/dr9aiqtjj/image/upload/v1727357787/port-image-2_f3t6vt.jpg" alt="Profile picture" className="about-pic" />
         </div>
         <div className="about-details-container">
           <div className="about-containers">
             <div className="details-container">
               <h3>Professional Development</h3>
-              <p>General Assembly<br />Software Engineering Bootcamp<br />Jun - Aug 2024: 12 weeks</p>
+              <p>General Assembly<br />Software Engineering Bootcamp<br />Jun - Aug 2024 <br /> 12 weeks (420 hours)</p>
             </div>
             <div className="details-container">
               <h3>Education</h3>
@@ -22,12 +20,18 @@ const About = () => {
           </div>
           <div className="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate exercitationem
-              nobis, nihil esse debitis maxime facere minus sint delectus velit in eos
-              quo officiis explicabo deleniti dignissimos. Eligendi illum libero
-              dolorum cum laboriosam corrupti quidem, reiciendis ea magnam? Nulla,
-              impedit fuga!
+              Hello! I’m Yousef, a software engineer with a lifelong interest in technology. My journey into tech began with a degree in computer science, but due to health challenges during university, 
+              I took some time away from my studies. During this time, I moved into a career in recruitment, where I found success but always felt the pull to return to my roots in tech. Knowing my 
+              true passion lay in coding, I eventually decided to take the leap and pursue software engineering full-time.
+              <br /><br />
+              After completing the General Assembly Software Engineering Bootcamp, I quickly immersed myself in the world of JavaScript, React, Node.js and Django, building projects that push my skills 
+              and creativity. My recruitment background gives me a unique perspective on user needs and business objectives, allowing me to approach development with both technical and human-centered insights.
+              <br /><br />
+              Currently, I’m focused on mastering the MERN stack and developing applications that combine functionality with user experience. I’m particularly proud of my recent work on AIpplicant, where I 
+              tackled the integration of chatGPT to provide responses based on user input.
+              <br /><br />
+              As I continue on this path, I’m excited to take on projects that make a tangible difference, whether it’s through problem-solving or innovation. Thanks for stopping by, and feel free to reach out if 
+              you’d like to connect!
             </p>
           </div>
         </div>
