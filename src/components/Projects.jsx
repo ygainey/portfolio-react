@@ -30,7 +30,7 @@ const Projects = () => {
               <img src="./assets/project-2.png" alt="Project 2" className="project-img" />
             </div>
             <h2 className="experience-sub-title project-title">Project Two</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet corrupti deserunt dolor porro beatae explicabo harum debitis at alias doloremque temporibus autem fugit, sunt perspiciatis. Tempora aperiam recusandae itaque quasi!</p>
+            <p>Update: 20/11/2024 - I had to remove this project due to deployment issues. I am currently in the final stages of a new MERN stack project that I will have uploaded in a couple of day.</p>
             <div className="btn-container">
               <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://github.com', '_blank')}>
                 Github
