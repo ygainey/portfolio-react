@@ -47,7 +47,7 @@ const Projects = () => {
             <h2 className="experience-sub-title project-title">AIpplicant</h2>
             <p>
               AIpplicant is an designed to help users track job applications and then generate a cover letter using ChatGPT and user datapoints. 
-              It was build using React on the Front-End, Django and PostgreSQL on the Back-End.
+              It was built using React on the Front-End, Django and PostgreSQL on the Back-End.
             </p>
             <div className="btn-container">
               <button className="btn btn-color-2 project-btn" onClick={() => { window.open('https://github.com/ygainey/aipplicant-react-fe', '_blank'); window.open('https://github.com/ygainey/aipplicant-django-be', '_blank'); }}>
