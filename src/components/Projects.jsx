@@ -30,7 +30,7 @@ const Projects = () => {
               <img src="./assets/project-2.png" alt="Project 2" className="project-img" />
             </div>
             <h2 className="experience-sub-title project-title">Removed due to issues</h2>
-            <p>Update: 20/11/2024 - I had to remove this project due to deployment issues. I am currently in the final stages of a new MERN stack project that I will have uploaded in a couple of day.</p>
+            <p>Update: 24/11/2024 - I had to remove this project due to deployment issues. I am currently in the final stages of a new MERN stack project that I will have uploaded in a couple of days. Finished BE, just a couple more components to build and style on FE then done.</p>
             <div className="btn-container">
               <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://github.com', '_blank')}>
                 Github
