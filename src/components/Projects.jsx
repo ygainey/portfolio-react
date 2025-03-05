@@ -27,7 +27,7 @@ const Projects = () => {
             <div className="article-container">
               <img src="https://res.cloudinary.com/dr9aiqtjj/image/upload/v1741186268/netflix_clone_dvonza.png" alt="Project 2" className="project-img" />
             </div>
-            <h2 className="experience-sub-title project-title">Removed due to issues</h2>
+            <h2 className="experience-sub-title project-title">Netflix Clone</h2>
             <p>Note: Known issue with login, working to fix. Hosted site not currently available until fixed. <br /> This is a clone of Netflix built in MERN stack using a monorepo codebase. This is a post course project.</p>
             <div className="btn-container">
               <button className="btn btn-color-2 project-btn" onClick={() => window.open('https://github.com/ygainey/netflix-clone', '_blank')}>
